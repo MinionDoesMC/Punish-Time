@@ -1,0 +1,12 @@
+name: Punish Time
+version: 1.0
+main: com.gmail.minionemails.Punish_Time.Core
+description: Ban, kick, and mute players!
+commands:
+   forbid:
+      usage: /<command> <player> <reason>
+      description: Ban a player!
+permissions:
+   punish.use:
+      description: Ban a player!
+      default: op
