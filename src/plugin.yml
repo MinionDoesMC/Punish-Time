@@ -6,6 +6,9 @@ commands:
    forbid:
       usage: /<command> <player> <reason>
       description: Ban a player!
+   unforbid:
+      usage: /<command> <player>
+      description: Unban a player!
 permissions:
    punish.use:
       description: Ban a player!
